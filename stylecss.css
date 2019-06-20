@@ -1,0 +1,127 @@
+html { 
+  background: url('bg pic.jpg'); 
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.bottom{
+position:absolute;
+bottom:0 ;
+left:8 ;
+color:white;}
+
+
+.right{
+	position:absolute;
+bottom:88.1% ;
+left:80% ;
+color:black;}
+	
+.rtext{
+		color:black;
+		float:right;
+	margin-right:40px;
+	margin-top:-16px;}
+
+#signup_button{
+background-color:#349ed3;
+color:white;
+border:0;}
+
+.btncolor{background-color:#349ed3;border:0;}
+.btncolor:hover {background-color:green;border:0;}
+
+.left{
+	color:black;
+	margin-top:0px;
+	margin-bottom:10px;
+	width:320px;
+	height:510px;
+	background-color:white;
+	float:left;
+	text-align:center;
+	padding:5px;
+	border:0;
+	border-radius:10px;
+	font-size:20px;
+	opacity:0.7;
+font-weight:bold;}
+
+.top_bar{margin-left: -10;
+    width:103%;
+  overflow: hidden;
+  background-color: #0D2D69;
+}
+.top_bar img {
+align-content:center;
+  padding: 1px 2px;
+  }
+
+.rightbox{
+	color:black;
+	margin-top:-150px;
+	margin-right:30px;
+	width:320px;
+	height:510px;
+    float:right;
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border:0;
+	border-radius:10px;
+	font-size:20px;
+	opacity:0.8;
+font-weight:bold;}	
+
+
+.d_position{margin-left:450px;}
+
+
+.dropbtn {
+    color: white;
+	background-color:black;
+    padding:8px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;	
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	
+}
+
+
+.dropdown-content a {
+    color: white;
+    padding: 3px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+	

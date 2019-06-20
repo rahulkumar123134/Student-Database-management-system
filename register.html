@@ -1,0 +1,79 @@
+<html>
+ <head>
+   <link rel="stylesheet" href= stylecss.css> 
+     <title> Registration</title>
+<style>
+body
+{
+background-image:url('bg pic.jpg');
+background-position:center;
+background-size:cover;
+background-attachment:fixed;
+}
+</style>
+ </head>
+  <body>
+     <div style=" opacity:0.4;background-color:orange;width:100% ;height:50; padding:1px">
+       <center><h3 style="color:black">Registration page</h3></center>
+        </div><br><br>
+		<center><table border="0" cellpadding="15">
+		
+            
+            <img class="circle" src="pic.jpg" width="100" height="100" alt="dp"><br><br>
+            <font size="5"><b><font color="Red"></font><span style="color:red; font-sty10:54 AM 5/31/2018le:italic">Bits Pilani</span></font></b>
+
+            
+		<tr><td width="300px" bgcolor="#42eef4" align="center">
+		
+		<form method="post" action="aa.php">
+		
+            <div style=" opacity:1;background-color:white; padding:1px">
+		Name: <input required minlength="3" maxlength="20" style="border:0" type="text" name="name"  placeholder="enter full name" required></div><br><br>
+            
+            <div style=" opacity:1;background-color:white; padding:1px">
+		Username: <input required minlength="3" maxlength="20" style="border:0" type="text" name="username" placeholder="enter username" required></div><br><br>
+		
+		<div style=" opacity:1;background-color:white; padding:1px">
+            Email: <input required minlength="3" maxlength="40" style="border:0" type="email" name="email" placeholder=" ...@gmail.com" required></div><br><br>
+		
+        <div style=" opacity:1;background-color:white; padding:1px">
+            Course applied:
+            <select name="course" required>
+                <option selected hidden value="">Select</option>
+                <option>B-Tech</option>
+                <option>B-Com</option>
+                <option>BCA</option>
+                <option>BA-LLB</option>
+                <option>BSC</option>
+            </select></div><br><br>   
+            
+            <div style=" opacity:1;background-color:white; padding:1px">
+		Phone: <input required minlength="3" maxlength="20" style="border:0" type="number" name="phone" placeholder="enter phone no." required></div><br><br>
+            
+		<div style=" opacity:1;background-color:white; padding:1px">
+		D.O.B  <input style="border:0" type="date" name="dob" placeholder="enter your age" required></div><br><br>
+		
+		<div style=" opacity:0.9;background-color:white; padding:1px">
+       Password: <input required minlength="6" maxlength="20" style="border:0" type="password" name="password" placeholder="enter password" required></div><br><br>
+ 
+     <div style=" opacity:0.9;background-color:white; padding:1px">
+     Confirm Password: <input required minlength="6" maxlength="20" style="border:0" type="password" name="confpassword"  placeholder="confirm password" required></div><br><br>
+ 
+      <div style=" opacity:0.9;background-color:white; padding:1px">
+      Gender:<br>
+      <input required checked type="radio" name="gender" value="male"> MALE
+      <input type="radio" name="gender" value="female"> FEMALE
+      <input type="radio" name="gender" value="other"> OTHER<br>
+        </div><br>
+            
+            <input type="checkbox" name="terms" required checked ><b>I agree to the following <a href="terms.html">Terms and Conditions</a> and would like to join the Bits Pilani.</b><br><br>
+            
+        <input type="submit" name="submit"  class="btncolor"   value="Sign up">  <input type="reset" name="reset" value="Reset">   
+	</form>	
+	</td></tr></table>
+        </center>		
+		
+    </body>
+</html>
+
+        
